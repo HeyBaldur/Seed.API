@@ -1,0 +1,11 @@
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\netcoreapp3.1\Seed.Interfaces.deps.json
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\netcoreapp3.1\Seed.Interfaces.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\netcoreapp3.1\Seed.Interfaces.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\netcoreapp3.1\Seed.Models.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\netcoreapp3.1\Seed.Models.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\netcoreapp3.1\Seed.Interfaces.csprojAssemblyReference.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\netcoreapp3.1\Seed.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\netcoreapp3.1\Seed.Interfaces.AssemblyInfo.cs
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\netcoreapp3.1\Seed.Interfaces.csproj.CopyComplete
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\netcoreapp3.1\Seed.Interfaces.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\netcoreapp3.1\Seed.Interfaces.pdb

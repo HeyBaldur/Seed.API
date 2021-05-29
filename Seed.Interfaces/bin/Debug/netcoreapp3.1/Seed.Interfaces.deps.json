@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Seed.Interfaces/1.0.0": {
+        "dependencies": {
+          "Seed.Models": "1.0.0"
+        },
+        "runtime": {
+          "Seed.Interfaces.dll": {}
+        }
+      },
+      "Seed.Models/1.0.0": {
+        "runtime": {
+          "Seed.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Seed.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Seed.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

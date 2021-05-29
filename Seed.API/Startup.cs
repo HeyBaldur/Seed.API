@@ -10,8 +10,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Seed.API.Data;
+using Seed.Interfaces.V1;
+using Seed.Repositories;
+using Seed.Repositories.Data;
+using Seed.Repositories.Repositories;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace Seed.API
 {
@@ -31,13 +35,16 @@ namespace Seed.API
             services.AddControllers();
 
             // Add SQL instance
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Seed.API")));
 
             // Add cors
             services.AddCors();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+
+            services.AddScoped<IEmployee, EmployeesRepository>();
+            services.AddScoped<ISolution, SolutionRespository>();
 
             // Add Automapper
             services.AddAutoMapper(typeof(Startup));
@@ -61,7 +68,11 @@ namespace Seed.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Hyreet V1", Version = "v1" });
             });
 
-            services.AddControllersWithViews();
+            services.AddControllersWithViews()
+            .AddNewtonsoftJson(options =>
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+        );
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
