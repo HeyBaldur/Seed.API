@@ -11,3 +11,5 @@ C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\S
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\obj\Debug\netcoreapp3.1\Seed.Repositories.csproj.CopyComplete
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\bin\Debug\netcoreapp3.1\Seed.Interfaces.dll
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\bin\Debug\netcoreapp3.1\Seed.Interfaces.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\bin\Debug\netcoreapp3.1\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\bin\Debug\netcoreapp3.1\Seed.Services.pdb
