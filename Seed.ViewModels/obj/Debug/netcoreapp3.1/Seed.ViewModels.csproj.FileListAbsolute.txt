@@ -1,0 +1,8 @@
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\bin\Debug\netcoreapp3.1\Seed.ViewModels.deps.json
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\bin\Debug\netcoreapp3.1\Seed.ViewModels.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\bin\Debug\netcoreapp3.1\Seed.ViewModels.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\netcoreapp3.1\Seed.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\netcoreapp3.1\Seed.ViewModels.AssemblyInfo.cs
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\netcoreapp3.1\Seed.ViewModels.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\netcoreapp3.1\Seed.ViewModels.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\netcoreapp3.1\Seed.ViewModels.csprojAssemblyReference.cache

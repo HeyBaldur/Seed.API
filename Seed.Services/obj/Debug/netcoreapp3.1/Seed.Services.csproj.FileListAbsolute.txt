@@ -1,0 +1,8 @@
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\bin\Debug\netcoreapp3.1\Seed.Services.deps.json
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\bin\Debug\netcoreapp3.1\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\bin\Debug\netcoreapp3.1\Seed.Services.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\netcoreapp3.1\Seed.Services.AssemblyInfoInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\netcoreapp3.1\Seed.Services.AssemblyInfo.cs
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\netcoreapp3.1\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\netcoreapp3.1\Seed.Services.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\netcoreapp3.1\Seed.Services.csprojAssemblyReference.cache
