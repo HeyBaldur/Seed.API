@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Seed.Models\Seed.Models.csproj" />
+    <ProjectReference Include="..\Seed.Services\Seed.Services.csproj" />
   </ItemGroup>
 
 </Project>

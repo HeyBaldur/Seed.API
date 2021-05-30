@@ -1,7 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using Seed.Interfaces.V1;
 using Seed.Models.V1.Models;
 using Seed.Repositories.Data;
+using Seed.Services.ErrorHandling;
+using Seed.Services.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +27,11 @@ namespace Seed.Repositories.Repositories
             _dataContext = dataContext;
         }
 
+        /// <summary>
+        /// Create a new solution
+        /// </summary>
+        /// <param name="solution"></param>
+        /// <returns></returns>
         public async Task<DimSolution> Create(DimSolution solution)
         {
             await _dataContext.AddAsync(solution);
@@ -31,6 +39,11 @@ namespace Seed.Repositories.Repositories
             return solution;
         }
 
+        /// <summary>
+        /// Create a new filter
+        /// </summary>
+        /// <param name="filter"></param>
+        /// <returns></returns>
         public async Task<DimSolutionFilter> CreateFilter(DimSolutionFilter filter)
         {
             await _dataContext.AddAsync(filter);
@@ -38,15 +51,25 @@ namespace Seed.Repositories.Repositories
             return filter;
         }
 
+        /// <summary>
+        /// Get all solutions
+        /// </summary>
+        /// <returns></returns>
         public async Task<IEnumerable<DimSolution>> GetAll()
         {
             var solution = await _dataContext.DimSolutions.Include(p => p.Filters).ToListAsync();
             return solution;
         }
 
-        public async Task<DimSolution> Update(DimSolution solution)
+        /// <summary>
+        /// Update solution
+        /// </summary>
+        /// <param name="solution"></param>
+        /// <returns></returns>
+        public async Task<ContentHandler<string>> Update(DimSolution solution)
         {
             // Get all solutions from DB
+            var response = new SeedContentHandler();
             var filtersFromRepo = _dataContext
                         .DimSolutionFilters
                         .FromSqlInterpolated($"EXECUTE dbo.GetSolutions @DimSolutionID={solution.Id}")
@@ -57,15 +80,52 @@ namespace Seed.Repositories.Repositories
             // Validate if there are missing filters
             if (missingFilters.Any())
             {
-                throw new Exception("User cannot modify filters that belongs to a solution");
+                var error = new ErrorHandling
+                {
+                    ErrorMessage = "User cannot modify object",
+                    IssueId = Guid.NewGuid()
+                };
+
+                // TODO: Make it one single method
+                var objectToReturn = JsonConvert.SerializeObject(error);
+
+                var responseToReturn = response.HandleResponse(objectToReturn, false, "Fail");
+                return responseToReturn;
             }
 
-            // Filters cannot be edited here
-            solution.Filters = null;
+            try
+            {
+                // Filters cannot be edited here
+                solution.Filters = null;
 
-            _dataContext.Update(solution);
-            await _dataContext.SaveChangesAsync();
-            return solution;
+                _dataContext.Update(solution);
+                await _dataContext.SaveChangesAsync();
+
+                // TODO: Make it one single method
+                var objectToReturn = JsonConvert.SerializeObject(solution);
+
+                var responseToReturn = response.HandleResponse(objectToReturn, false, "Successs");
+                return responseToReturn;
+            }
+            catch (Exception ex)
+            {
+                var error = new ErrorHandling
+                {
+                    ErrorMessage = ex.ToString(),
+                    IssueId = Guid.NewGuid()
+                };
+
+                // TODO: Make it one single method
+                var objectToReturn = JsonConvert.SerializeObject(error);
+
+                var responseToReturn = response.HandleResponse(objectToReturn, false, "Fail");
+                return responseToReturn;
+            }
         }
+
+        //private Task<ContentHandler<string>> ResponseBuilder<T>(T obj, re)
+        //{
+
+        //}
     }
 }

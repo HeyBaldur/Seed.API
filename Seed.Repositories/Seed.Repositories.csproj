@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Seed.Interfaces\Seed.Interfaces.csproj" />
     <ProjectReference Include="..\Seed.Models\Seed.Models.csproj" />
+    <ProjectReference Include="..\Seed.Services\Seed.Services.csproj" />
   </ItemGroup>
 
 </Project>
