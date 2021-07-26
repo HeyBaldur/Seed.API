@@ -1,11 +1,7 @@
 ﻿using Moq;
 using Seed.Interfaces.V1;
 using Seed.Models.V1.Models;
-using Seed.Repositories.Data;
 using Seed.Services.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Seed.XUnit.V1.Mocks
 {

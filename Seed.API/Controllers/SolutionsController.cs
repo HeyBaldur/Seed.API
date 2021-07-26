@@ -20,6 +20,10 @@ namespace Seed.API.Controllers
             _iSolution = iSolution;
         }
 
+        /// <summary>
+        /// Get all solutions
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -42,6 +46,11 @@ namespace Seed.API.Controllers
             return BadRequest(solutionResult.Message);
         }
 
+        /// <summary>
+        /// Create a new filter
+        /// </summary>
+        /// <param name="filter"></param>
+        /// <returns></returns>
         [HttpPost("AddFilter")]
         public async Task<IActionResult> AddFilter(DimSolutionFilter filter)
         {
@@ -49,6 +58,11 @@ namespace Seed.API.Controllers
             return Ok(filterToAdd);
         }
 
+        /// <summary>
+        /// Update a solution
+        /// </summary>
+        /// <param name="solution"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(DimSolution solution)
         {

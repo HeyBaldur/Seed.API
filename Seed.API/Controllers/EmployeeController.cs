@@ -12,6 +12,11 @@ namespace Seed.API.Controllers
     public class EmployeeController : Controller
     {
         private readonly IEmployee _iEmployee;
+        
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="iEmployee"></param>
         public EmployeeController(IEmployee iEmployee)
         {
             _iEmployee = iEmployee;
