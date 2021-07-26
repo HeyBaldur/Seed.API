@@ -1,0 +1,349 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.XUnit\\Seed.XUnit.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Interfaces\\Seed.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Interfaces\\Seed.Interfaces.csproj",
+        "projectName": "Seed.Interfaces",
+        "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Interfaces\\Seed.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Rodolfo AC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rodolfo AC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj"
+              },
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj",
+        "projectName": "Seed.Models",
+        "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Repositories\\Seed.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Repositories\\Seed.Repositories.csproj",
+        "projectName": "Seed.Repositories",
+        "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Repositories\\Seed.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Rodolfo AC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rodolfo AC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Interfaces\\Seed.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Interfaces\\Seed.Interfaces.csproj"
+              },
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj"
+              },
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj",
+        "projectName": "Seed.Services",
+        "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj",
+        "packagesPath": "C:\\Users\\Rodolfo AC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rodolfo AC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.XUnit\\Seed.XUnit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.XUnit\\Seed.XUnit.csproj",
+        "projectName": "Seed.XUnit",
+        "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.XUnit\\Seed.XUnit.csproj",
+        "packagesPath": "C:\\Users\\Rodolfo AC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.XUnit\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rodolfo AC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj"
+              },
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Repositories\\Seed.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Repositories\\Seed.Repositories.csproj"
+              },
+              "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj": {
+                "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Services\\Seed.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

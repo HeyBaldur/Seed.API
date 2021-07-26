@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seed.Services", "Seed.Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seed.Repositories", "Seed.Repositories\Seed.Repositories.csproj", "{14780CA3-6708-4288-A8C3-B4D9B52F996D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seed.Interfaces", "Seed.Interfaces\Seed.Interfaces.csproj", "{EF4F16E5-307F-47E1-AEF7-11349F247F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seed.Interfaces", "Seed.Interfaces\Seed.Interfaces.csproj", "{EF4F16E5-307F-47E1-AEF7-11349F247F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seed.XUnit", "Seed.XUnit\Seed.XUnit.csproj", "{8F722D8B-590C-4E01-8661-ED60ADE9B059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{EF4F16E5-307F-47E1-AEF7-11349F247F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF4F16E5-307F-47E1-AEF7-11349F247F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF4F16E5-307F-47E1-AEF7-11349F247F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F722D8B-590C-4E01-8661-ED60ADE9B059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F722D8B-590C-4E01-8661-ED60ADE9B059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F722D8B-590C-4E01-8661-ED60ADE9B059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F722D8B-590C-4E01-8661-ED60ADE9B059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

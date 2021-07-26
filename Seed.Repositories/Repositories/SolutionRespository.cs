@@ -1,22 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
 using Seed.Interfaces.V1;
 using Seed.Models.V1.Models;
 using Seed.Repositories.Data;
-using Seed.Services.ErrorHandling;
-using Seed.Services.Models;
+using Seed.Services.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using static Seed.Models.V1.Models.DimSolutionFilter;
 
 namespace Seed.Repositories.Repositories
 {
-    public class SolutionRespository : ISolution
+    public class SolutionRespository: ISolution
     {
         private readonly DataContext _dataContext;
+
+        // public override T Result => base.Result;
 
         /// <summary>
         /// Contructor
@@ -32,11 +31,18 @@ namespace Seed.Repositories.Repositories
         /// </summary>
         /// <param name="solution"></param>
         /// <returns></returns>
-        public async Task<DimSolution> Create(DimSolution solution)
+        public async Task<ResultOperationResponse<DimSolution>> Create(DimSolution solution)
         {
-            await _dataContext.AddAsync(solution);
-            await _dataContext.SaveChangesAsync();
-            return solution;
+            try
+            {
+                await _dataContext.AddAsync(solution);
+                await _dataContext.SaveChangesAsync();
+                return new ResultOperationResponse<DimSolution>(solution, "Success");
+            }
+            catch (Exception ex)
+            {
+                return new ResultOperationResponse<DimSolution>(true, ex.Message);
+            }
         }
 
         /// <summary>
@@ -44,21 +50,28 @@ namespace Seed.Repositories.Repositories
         /// </summary>
         /// <param name="filter"></param>
         /// <returns></returns>
-        public async Task<DimSolutionFilter> CreateFilter(DimSolutionFilter filter)
+        public async Task<ResultOperationResponse<DimSolutionFilter>> CreateFilter(DimSolutionFilter filter)
         {
-            await _dataContext.AddAsync(filter);
-            await _dataContext.SaveChangesAsync();
-            return filter;
+            try
+            {
+                await _dataContext.AddAsync(filter);
+                await _dataContext.SaveChangesAsync();
+                return new ResultOperationResponse<DimSolutionFilter>(filter, "Success");
+            }
+            catch (Exception)
+            {
+                return new ResultOperationResponse<DimSolutionFilter>(true, "Fail to add filter");
+            }
         }
 
         /// <summary>
         /// Get all solutions
         /// </summary>
         /// <returns></returns>
-        public async Task<IEnumerable<DimSolution>> GetAll()
+        public async Task<ResultOperationResponse<IEnumerable<DimSolution>>> GetAll()
         {
-            var solution = await _dataContext.DimSolutions.Include(p => p.Filters).ToListAsync();
-            return solution;
+            var solutionList = await _dataContext.DimSolutions.Include(p => p.Filters).ToListAsync();
+            return new ResultOperationResponse<IEnumerable<DimSolution>>(solutionList, "Fail to add filter");
         }
 
         /// <summary>
@@ -66,10 +79,9 @@ namespace Seed.Repositories.Repositories
         /// </summary>
         /// <param name="solution"></param>
         /// <returns></returns>
-        public async Task<ContentHandler<string>> Update(DimSolution solution)
+        public async Task<ResultOperationResponse<DimSolution>> Update(DimSolution solution)
         {
             // Get all solutions from DB
-            var response = new SeedContentHandler();
             var filtersFromRepo = _dataContext
                         .DimSolutionFilters
                         .FromSqlInterpolated($"EXECUTE dbo.GetSolutions @DimSolutionID={solution.Id}")
@@ -79,53 +91,19 @@ namespace Seed.Repositories.Repositories
 
             // Validate if there are missing filters
             if (missingFilters.Any())
-            {
-                var error = new ErrorHandling
-                {
-                    ErrorMessage = "User cannot modify object",
-                    IssueId = Guid.NewGuid()
-                };
-
-                // TODO: Make it one single method
-                var objectToReturn = JsonConvert.SerializeObject(error);
-
-                var responseToReturn = response.HandleResponse(objectToReturn, false, "Fail");
-                return responseToReturn;
-            }
+                return new ResultOperationResponse<DimSolution>(true, "User cannot modify object");
 
             try
             {
-                // Filters cannot be edited here
                 solution.Filters = null;
-
                 _dataContext.Update(solution);
                 await _dataContext.SaveChangesAsync();
-
-                // TODO: Make it one single method
-                var objectToReturn = JsonConvert.SerializeObject(solution);
-
-                var responseToReturn = response.HandleResponse(objectToReturn, false, "Successs");
-                return responseToReturn;
+                return new ResultOperationResponse<DimSolution>(solution, "Success");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                var error = new ErrorHandling
-                {
-                    ErrorMessage = ex.ToString(),
-                    IssueId = Guid.NewGuid()
-                };
-
-                // TODO: Make it one single method
-                var objectToReturn = JsonConvert.SerializeObject(error);
-
-                var responseToReturn = response.HandleResponse(objectToReturn, false, "Fail");
-                return responseToReturn;
+                return new ResultOperationResponse<DimSolution>(true, "Uncaught error, please verify your request and try again");
             }
         }
-
-        //private Task<ContentHandler<string>> ResponseBuilder<T>(T obj, re)
-        //{
-
-        //}
     }
 }
