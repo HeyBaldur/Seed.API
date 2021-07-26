@@ -48,4 +48,25 @@ If you have any questions please feel free to contact/follow me [on twitter](htt
 Also you can take a look at my Gitbooks and check them out, I am still working on them so please be pacient with the results. 
 [Gitbook](https://baldur.gitbook.io/angular/)
 
+The updated Angular project template provides a convenient starting point for ASP.NET Core apps using Angular and the Angular CLI to implement a rich, client-side user interface (UI).
+
+The template is equivalent to creating an ASP.NET Core project to act as an API backend and an Angular CLI project to act as a UI. The template offers the convenience of hosting both project types in a single app project. Consequently, the app project can be built and published as a single unit.
+
+### Run ng commands
+In a command prompt, switch to the ClientApp subdirectory:
+
+```
+cd ClientApp
+```
+If you have the ng tool installed globally, you can run any of its commands. For example, you can run ng lint, ng test, or any of the other Angular CLI commands. There's no need to run ng serve though, because your ASP.NET Core app deals with serving both server-side and client-side parts of your app. Internally, it uses ng serve in development.
+
+If you don't have the ng tool installed, run npm run ng instead. For example, you can run npm run ng lint or npm run ng test.
+
+### Install npm packages
+To install third-party npm packages, use a command prompt in the ClientApp subdirectory. For example:
+
+```
+cd ClientApp
+npm install --save <package_name>
+```
 
