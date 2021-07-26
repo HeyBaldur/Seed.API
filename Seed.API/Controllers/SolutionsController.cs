@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Seed.Interfaces.V1;
 using Seed.Models.V1.Models;
-using Seed.Repositories.Data;
 
 namespace Seed.API.Controllers
 {
@@ -32,11 +27,19 @@ namespace Seed.API.Controllers
             return Ok(solutions);
         }
 
+        /// <summary>
+        /// Add a new solution
+        /// </summary>
+        /// <param name="solution"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Add(DimSolution solution)
         {
-            var solutions = await _iSolution.Create(solution);
-            return Ok(solutions);
+            var solutionResult = await _iSolution.Create(solution);
+            if (!solutionResult.IsError)
+                return Ok(solutionResult);
+
+            return BadRequest(solutionResult.Message);
         }
 
         [HttpPost("AddFilter")]
