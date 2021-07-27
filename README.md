@@ -1,5 +1,5 @@
 # ASP.NET Core Seed API ✅
-API Seed asp.net core 3.1 will help developers to create faster applications
+API Seed asp.net core 3.1 will help developers to create faster applications [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is an application skeleton for a typical ASP.NET Core app. You can use it to quickly bootstrap your ASP.NET Core projects and dev environment for these projects.
 
