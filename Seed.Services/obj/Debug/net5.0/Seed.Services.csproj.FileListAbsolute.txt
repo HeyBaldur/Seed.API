@@ -1,0 +1,12 @@
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\Seed.Services.csproj.AssemblyReference.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\Seed.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\Seed.Services.AssemblyInfoInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\Seed.Services.AssemblyInfo.cs
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\Seed.Services.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\bin\Debug\net5.0\Seed.Services.deps.json
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\bin\Debug\net5.0\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\bin\Debug\net5.0\ref\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\bin\Debug\net5.0\Seed.Services.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\ref\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\obj\Debug\net5.0\Seed.Services.pdb

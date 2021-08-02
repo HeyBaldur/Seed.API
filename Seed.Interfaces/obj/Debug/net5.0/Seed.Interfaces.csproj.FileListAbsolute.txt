@@ -1,0 +1,17 @@
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.AssemblyInfo.cs
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\Seed.Interfaces.deps.json
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\Seed.Interfaces.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\ref\Seed.Interfaces.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\Seed.Interfaces.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\Seed.Models.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\Seed.Services.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\Seed.Models.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\bin\Debug\net5.0\Seed.Services.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.csproj.CopyComplete
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\ref\Seed.Interfaces.dll
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Interfaces\obj\Debug\net5.0\Seed.Interfaces.pdb
