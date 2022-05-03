@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seed.Repositories", "Seed.R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seed.Interfaces", "Seed.Interfaces\Seed.Interfaces.csproj", "{EF4F16E5-307F-47E1-AEF7-11349F247F19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seed.XUnit", "Seed.XUnit\Seed.XUnit.csproj", "{8F722D8B-590C-4E01-8661-ED60ADE9B059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seed.XUnit", "Seed.XUnit\Seed.XUnit.csproj", "{8F722D8B-590C-4E01-8661-ED60ADE9B059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowStrategy", "SpecFlowStrategy\SpecFlowStrategy.csproj", "{6BAC4F45-7F47-48CB-B8E3-6055A8CC39D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8F722D8B-590C-4E01-8661-ED60ADE9B059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F722D8B-590C-4E01-8661-ED60ADE9B059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F722D8B-590C-4E01-8661-ED60ADE9B059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAC4F45-7F47-48CB-B8E3-6055A8CC39D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAC4F45-7F47-48CB-B8E3-6055A8CC39D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAC4F45-7F47-48CB-B8E3-6055A8CC39D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAC4F45-7F47-48CB-B8E3-6055A8CC39D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
