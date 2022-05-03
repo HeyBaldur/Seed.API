@@ -9,15 +9,20 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { ReactiveProgrammingComponent } from './reactive-programming/reactive-programming.component';
+import { EmployeesComponent } from './employees/employees.component';
+import { EmployeeService } from './services/employee.service';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
-  ],
+    FetchDataComponent,
+    ReactiveProgrammingComponent,
+    EmployeesComponent
+   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
@@ -26,9 +31,13 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'rxjs', component: ReactiveProgrammingComponent },
+      { path: 'employees', component: EmployeesComponent },
     ])
   ],
-  providers: [],
+  providers: [
+    EmployeeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

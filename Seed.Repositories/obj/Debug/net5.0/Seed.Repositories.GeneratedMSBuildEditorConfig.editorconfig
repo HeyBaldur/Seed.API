@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Seed.Repositories
+build_property.ProjectDir = C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\

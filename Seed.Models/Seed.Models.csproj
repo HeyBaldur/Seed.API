@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="DimAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="V1\Models\DimCreatedEmployees.cs" />
     <Compile Include="V1\Models\DimEmployee.cs" />
     <Compile Include="V1\Models\DimSolution.cs" />
     <Compile Include="V1\Models\DimSolutionFilter.cs" />

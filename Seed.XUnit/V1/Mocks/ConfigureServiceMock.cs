@@ -12,7 +12,7 @@ namespace Seed.XUnit.V1.Mocks
         public static Mock<ISolution> Initialize()
         {
             _solutionMocks.Setup(m => m.Create(It.IsAny<DimSolution>()))
-                .ReturnsAsync(new ResultOperationResponse<DimSolution>(false, "Success"));
+                .ReturnsAsync(new GenericApiResponse<DimSolution>(false, "Success"));
 
             return _solutionMocks;
         } 

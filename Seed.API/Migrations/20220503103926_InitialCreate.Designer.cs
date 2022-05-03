@@ -10,16 +10,36 @@ using Seed.Repositories.Data;
 namespace Seed.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210529201532_InitialCreate")]
+    [Migration("20220503103926_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.0")
+                .HasAnnotation("ProductVersion", "3.1.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Seed.Models.V1.Models.DimCreatedEmployees", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DimEmployeeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DimEmployeeId");
+
+                    b.ToTable("NewEmployeeList");
+                });
 
             modelBuilder.Entity("Seed.Models.V1.Models.DimEmployee", b =>
                 {
@@ -107,9 +127,18 @@ namespace Seed.API.Migrations
                     b.ToTable("DimSolutionFilters");
                 });
 
+            modelBuilder.Entity("Seed.Models.V1.Models.DimCreatedEmployees", b =>
+                {
+                    b.HasOne("Seed.Models.V1.Models.DimEmployee", "DimEmployee")
+                        .WithMany()
+                        .HasForeignKey("DimEmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Seed.Models.V1.Models.DimSolutionFilter", b =>
                 {
-                    b.HasOne("Seed.Models.V1.Models.DimSolution", null)
+                    b.HasOne("Seed.Models.V1.Models.DimSolution", "DimSolution")
                         .WithMany("Filters")
                         .HasForeignKey("DimSolutionId");
                 });

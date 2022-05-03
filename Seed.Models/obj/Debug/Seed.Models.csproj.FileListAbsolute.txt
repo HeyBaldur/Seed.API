@@ -4,5 +4,5 @@ C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\S
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\obj\Debug\Seed.Models.csproj.CopyComplete
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\obj\Debug\Seed.Models.dll
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\obj\Debug\Seed.Models.pdb
-C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\obj\Debug\Seed.Models.csproj.AssemblyReference.cache
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\obj\Debug\Seed.Models.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\obj\Debug\Seed.Models.csproj.AssemblyReference.cache

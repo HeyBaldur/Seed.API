@@ -13,9 +13,26 @@ namespace Seed.Repositories.Data
         {
         }
 
+        /// <summary>
+        /// Employee list
+        /// </summary>
         public virtual DbSet<DimEmployee> DimEmployees { get; set; }
+        
+        /// <summary>
+        /// Solutions 
+        /// </summary>
         public DbSet<DimSolution> DimSolutions { get; set; }
+        
+        /// <summary>
+        /// Dime solution filters
+        /// </summary>
         public virtual DbSet<DimSolutionFilter> DimSolutionFilters { get; set; }
+
+        /// <summary>
+        /// New employee list
+        /// This list of employees has been created only for rxjs purposes
+        /// </summary>
+        public DbSet<DimCreatedEmployees> NewEmployeeList { get; set; }
 
     }
 }

@@ -16,6 +16,9 @@ using Seed.Repositories.Data;
 using Seed.Repositories.Repositories;
 using System.Text;
 using Newtonsoft.Json;
+using System;
+using System.Reflection;
+using System.IO;
 
 namespace Seed.API
 {
@@ -65,7 +68,21 @@ namespace Seed.API
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Hyreet V1", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Title = "API Seed", 
+                    Version = "v1",
+                    Description = "API Seed will help developers understand in easy mode a real world API implementing real functions, testing and best practices.",
+                    TermsOfService = new Uri(@"https://twitter.com/HeyBaldur"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Twitter contact",
+                        Url = new Uri("https://twitter.com/HeyBaldur")
+                    }
+                });
+
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
             });
 
             services.AddControllersWithViews().AddNewtonsoftJson(options => 
@@ -106,7 +123,7 @@ namespace Seed.API
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Dotnet Core SEED API");
             });
 
             app.UseStaticFiles();

@@ -2,7 +2,6 @@ C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\S
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\bin\Debug\net5.0\Seed.ViewModels.dll
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\bin\Debug\net5.0\ref\Seed.ViewModels.dll
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\bin\Debug\net5.0\Seed.ViewModels.pdb
-C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\net5.0\Seed.ViewModels.csproj.AssemblyReference.cache
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\net5.0\Seed.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\net5.0\Seed.ViewModels.AssemblyInfoInputs.cache
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.ViewModels\obj\Debug\net5.0\Seed.ViewModels.AssemblyInfo.cs

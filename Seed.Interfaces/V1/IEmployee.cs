@@ -1,7 +1,6 @@
 ﻿using Seed.Models.V1.Models;
-using System;
+using Seed.Services.Abstract;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Seed.Interfaces.V1
@@ -12,8 +11,13 @@ namespace Seed.Interfaces.V1
         /// Get all employees
         /// </summary>
         /// <returns></returns>
-        Task<IEnumerable<DimEmployee>> GetAllEmployees();
+        Task<GenericApiResponse<IEnumerable<DimEmployee>>> GetAllEmployees();
 
-        Task<DimEmployee> CreateEmployee(DimEmployee employee);
+        /// <summary>
+        /// Create a new employee
+        /// </summary>
+        /// <param name="employee"></param>
+        /// <returns></returns>
+        Task<GenericApiResponse<DimEmployee>> CreateEmployee(DimEmployee employee);
     }
 }

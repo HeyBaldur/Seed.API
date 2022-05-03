@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Seed.API.Migrations
 {
@@ -42,6 +43,26 @@ namespace Seed.API.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "NewEmployeeList",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DimEmployeeId = table.Column<int>(nullable: false),
+                    CreatedDate = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_NewEmployeeList", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_NewEmployeeList_DimEmployees_DimEmployeeId",
+                        column: x => x.DimEmployeeId,
+                        principalTable: "DimEmployees",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "DimSolutionFilters",
                 columns: table => new
                 {
@@ -68,18 +89,26 @@ namespace Seed.API.Migrations
                 name: "IX_DimSolutionFilters_DimSolutionId",
                 table: "DimSolutionFilters",
                 column: "DimSolutionId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_NewEmployeeList_DimEmployeeId",
+                table: "NewEmployeeList",
+                column: "DimEmployeeId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "DimEmployees");
-
-            migrationBuilder.DropTable(
                 name: "DimSolutionFilters");
 
             migrationBuilder.DropTable(
+                name: "NewEmployeeList");
+
+            migrationBuilder.DropTable(
                 name: "DimSolutions");
+
+            migrationBuilder.DropTable(
+                name: "DimEmployees");
         }
     }
 }
