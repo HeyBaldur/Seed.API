@@ -12,9 +12,9 @@ namespace Seed.API.Controllers
         private readonly ISolution _iSolution;
 
         /// <summary>
-        /// Contructor
+        /// 
         /// </summary>
-        /// <param name="dataContext"></param>
+        /// <param name="iSolution"></param>
         public SolutionsController(ISolution iSolution)
         {
             _iSolution = iSolution;

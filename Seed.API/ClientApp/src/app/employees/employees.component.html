@@ -18,3 +18,31 @@
     </tr>
   </tbody>
 </table>
+
+<div class="mt-3">
+  <h4>Add new</h4>
+  <form (ngSubmit)="onSubmit(this.form.value)" [formGroup]="form">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <input type="text" class="form-control" name="firstName" placeholder="First name" formControlName="firstName">
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <input type="text" class="form-control" name="lastName" placeholder="Last name" formControlName="lastName">
+      </div>
+    </div>
+    <div class="row mt-1">
+      <div class="col-md-6 col-sm-6">
+        <input type="text" class="form-control" name="emailAddress" placeholder="Email address"
+          formControlName="emailAddress">
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <input type="number" class="form-control" name="age" placeholder="Age" formControlName="age">
+      </div>
+    </div>
+    <div class="row mt-1">
+      <div class="col-md-6 col-sm-6">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>

@@ -6,6 +6,7 @@ using Seed.Models.V1.Models;
 namespace Seed.API.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class EmployeeController : Controller
     {
         private readonly IEmployee _iEmployee;
@@ -38,8 +39,8 @@ namespace Seed.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(DimEmployee employee)
         {
-            await _iEmployee.CreateEmployee(employee);
-            return Ok(employee);
+            var result = await _iEmployee.CreateEmployee(employee);
+            return Ok(result);
         }
     }
 }

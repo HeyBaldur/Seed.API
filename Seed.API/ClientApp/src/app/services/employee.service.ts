@@ -10,14 +10,14 @@ import { GenericApiResponse } from '../interfaces/genericApiResponse';
 })
 export class EmployeeService {
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private _httpClient: HttpClient) { }
 
   /**
    * Get all the employees from the databse
    * @returns 
    */
   public GetEmployees(): Observable<GenericApiResponse<Employee[]>> {
-    return this.httpClient.get<GenericApiResponse<Employee[]>>(`${environment.baseUrl}Employee/getAllEmployees`, {})
+    return this._httpClient.get<GenericApiResponse<Employee[]>>(`${environment.baseUrl}Employee/getAllEmployees`, {})
   }
 
   /**
@@ -25,6 +25,6 @@ export class EmployeeService {
    * @returns 
    */
   public CreateEmployee(employee: Employee): Observable<GenericApiResponse<Employee>> {
-    return this.httpClient.post<GenericApiResponse<Employee>>(`${environment.baseUrl}Employee`, employee)
+    return this._httpClient.post<GenericApiResponse<Employee>>(`${environment.baseUrl}Employee`, employee)
   }
 }

@@ -15,7 +15,7 @@ namespace SpecFlowStrategy.Steps
     [Binding]
     public sealed class Emplyees
     {
-        EmployeeList _employeeList;
+        private EmployeeList? _employeeList;
 
         [Given(@"I launch the application")]
         public void GivenILaunchTheApplication()
@@ -28,13 +28,13 @@ namespace SpecFlowStrategy.Steps
         [Given(@"I click in employees link")]
         public void GivenIClickInEmployeesLink()
         {
-            _employeeList.ClickEmployees();
+            _employeeList?.ClickEmployees();
         }
 
         [Given(@"I should see the employees list")]
         public void GivenIShouldSeeTheEmployeesList()
         {
-            Assert.That(_employeeList.IsTableDisplayed(), Is.True);
+            Assert.That(_employeeList?.IsTableDisplayed(), Is.True);
         }
     }
 }
