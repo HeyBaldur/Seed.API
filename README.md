@@ -69,4 +69,67 @@ To install third-party npm packages, use a command prompt in the ClientApp subdi
 cd ClientApp
 npm install --save <package_name>
 ```
+# **Coding tips and paths to learn**
+
+- Design patterns
+  - Abstract factory
+  - Adapter
+  - Builder
+  - Composite
+  - Factory method
+  - Singleton
+- Behavioral patterns
+  - Command
+  - Iterator
+  - Visitor
+
+Other patterns
+
+**CQRS and Mediator pattern**
+
+CQRS = Command Query Responsibility Segregation. Basically its purpose is the CQRS is separating the reading operations and updating of the data. This pattern allows us to improve scalability, security and performance. It allows to avoid conflict fusions at domain level.
+
+**What problem it solves?**
+
+In traditional architectures, the same data is used to query and update a database. That's simple and works fine for basic CRUD operations.
+
+In more complex apps, however, this approach can become unwieldy. For example, on the read side, the app can perform many different queries, returning data transfer objects (DTOs) with different forms.
+
+Object mapping can get tricky. On the writing side, the model can implement complex validation and business logics. As a result, you may end up with an overly complex model that does too much.
+
+**Benefits of the CQRS pattern**
+
+- Separation of interests. Separating the read and write sides can result in models that are easier to maintain and more flexible. Most of the complex business logic goes into the script model. The reading model can be relatively simple.
+- Simpler queries. By storing a materialized view in the read database, the app can avoid complex joins when performing queries.
+
+![](RackMultipart20221010-1-tlptgr_html_91cfa024f96ebc5f.png)
+
+## **Angular journey**
+
+- Angular version: [https://angular.io/guide/releases](https://angular.io/guide/releases)
+- Content projection: [https://angular.io/guide/content-projection](https://angular.io/guide/content-projection)
+- Built-in directives: [https://angular.io/guide/built-in-directives](https://angular.io/guide/built-in-directives)
+- Renderer2: [https://angular.io/api/core/Renderer2](https://angular.io/api/core/Renderer2)
+- Attribute directives: [https://angular.io/guide/attribute-directives](https://angular.io/guide/attribute-directives)
+- HttpInterceptor: [https://angular.io/api/common/http/HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor)
+- Angular x Jest Snapshot Testing 📸: [https://medium.com/@aaaronnte/angular-x-jest-snapshot-testing-1ae13e2b68fd](https://medium.com/@aaaronnte/angular-x-jest-snapshot-testing-1ae13e2b68fd)
+- Specflow: [https://specflow.org/](https://specflow.org/)
+- io: [https://jestjs.io/](https://jestjs.io/)
+
+**Interview questions Angular**
+
+- [https://www.edureka.co/blog/interview-questions/top-angularjs-interview-questions-2016/](https://www.edureka.co/blog/interview-questions/top-angularjs-interview-questions-2016/)
+
+**Interview questions JavaScript**
+
+- [https://www.edureka.co/blog/interview-questions/javascript-interview-questions/](https://www.edureka.co/blog/interview-questions/javascript-interview-questions/)
+- [https://css-tricks.com/understanding-immutability-in-javascript/](https://css-tricks.com/understanding-immutability-in-javascript/)
+
+**Interview questions C#**
+
+- [https://www.edureka.co/blog/interview-questions/c-sharp-interview-questions/](https://www.edureka.co/blog/interview-questions/c-sharp-interview-questions/)
+
+**Interview questions CSS**
+
+- [https://www.edureka.co/blog/interview-questions/css-interview-questions/](https://www.edureka.co/blog/interview-questions/css-interview-questions/)
 
