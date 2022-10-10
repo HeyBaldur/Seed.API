@@ -1,0 +1,767 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.1632" branch-rate="0" version="1.9" timestamp="1665411586" lines-covered="24" lines-valid="147" branches-covered="0" branches-valid="12">
+  <sources>
+    <source>C:\Users\Rodolfo AC\</source>
+  </sources>
+  <packages>
+    <package name="Seed.Interfaces" line-rate="1" branch-rate="1" complexity="0">
+      <classes />
+    </package>
+    <package name="Seed.Models" line-rate="0.1063" branch-rate="0" complexity="45">
+      <classes>
+        <class name="Seed.Models.DimAccount" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\DimAccount.cs" line-rate="0" branch-rate="1" complexity="10">
+          <methods>
+            <method name="get_AccountKey" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ParentAccountKey" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountCodeAlternateKey" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ParentAccountCodeAlternateKey" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountDescription" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Operator" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CustomMembers" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ValueType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CustomMemberOptions" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Models.V1.Models.DimCreatedEmployees" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\V1\Models\DimCreatedEmployees.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DimEmployeeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CreatedDate" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DimEmployee" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Models.V1.Models.DimEmployee" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\V1\Models\DimEmployee.cs" line-rate="0" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FirstName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MiddleName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Age" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EmailAddress" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Phone" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Models.V1.Models.DimSolution" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\V1\Models\DimSolution.cs" line-rate="0.7142000000000001" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EmployeeId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DescriptionSub" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhotoUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Filters" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Models.V1.Models.DimSolutionFilter" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\V1\Models\DimSolutionFilter.cs" line-rate="0" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FilterLevel" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SolutionId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DimSolutionId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DimSolution" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Models.V1.Models.DimSolutionFilter/FilterComparer" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Models\V1\Models\DimSolutionFilter.cs" line-rate="0" branch-rate="0" complexity="10">
+          <methods>
+            <method name="Equals" signature="(Seed.Models.V1.Models.DimSolutionFilter,Seed.Models.V1.Models.DimSolutionFilter)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="18" type="jump" coverage="0%" />
+                    <condition number="32" type="jump" coverage="0%" />
+                    <condition number="46" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="(Seed.Models.V1.Models.DimSolutionFilter)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+                <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="18" type="jump" coverage="0%" />
+                <condition number="32" type="jump" coverage="0%" />
+                <condition number="46" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="52" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Seed.Repositories" line-rate="0" branch-rate="0" complexity="15">
+      <classes>
+        <class name="Seed.Repositories.EmployeesRepository" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\EmployeesRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Seed.Repositories.Data.DataContext)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.EmployeesRepository/&lt;CreateEmployee&gt;d__2" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\EmployeesRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.EmployeesRepository/&lt;GetAllEmployees&gt;d__3" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\EmployeesRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.Repositories.SolutionRespository" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\SolutionRespository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Seed.Repositories.Data.DataContext)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.Repositories.SolutionRespository/&lt;Create&gt;d__2" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\SolutionRespository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="35" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.Repositories.SolutionRespository/&lt;CreateFilter&gt;d__3" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\SolutionRespository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="54" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.Repositories.SolutionRespository/&lt;&gt;c" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\SolutionRespository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Update&gt;b__5_0" signature="(Seed.Models.V1.Models.DimSolutionFilter)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="89" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.Repositories.SolutionRespository/&lt;GetAll&gt;d__4" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\SolutionRespository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.Repositories.SolutionRespository/&lt;Update&gt;d__5" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Repositories\SolutionRespository.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="83" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="184" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="94" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="83" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="184" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="94" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Repositories.Data.DataContext" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Repositories\Data\DataContext.cs" line-rate="0" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_DimEmployees" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DimSolutions" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DimSolutionFilters" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NewEmployeeList" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;Seed.Repositories.Data.DataContext&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Seed.Services" line-rate="0.4482" branch-rate="1" complexity="14">
+      <classes>
+        <class name="Seed.Services.Models.ContentHandler`1" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\Models\ContentHandler.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_PropertyToReturn" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsError" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Services.Models.ErrorHandling" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\Models\ErrorHandling.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_ErrorMessage" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IssueId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Services.Abstract.GenericApiResponse`1" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\Abstract\GenericApiResponse.cs" line-rate="0.5" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(T,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Boolean,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="17" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Services.Abstract.OperationResponse`1" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\Abstract\OperationResponse.cs" line-rate="0.5" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Result" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(T,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Boolean,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.Services.Abstract.VoidOperationResult" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.Services\Abstract\VoidOperationResult.cs" line-rate="0.5832999999999999" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_IsError" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Boolean,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Seed.XUnit" line-rate="0.8571" branch-rate="1" complexity="3">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Seed.XUnit.V1.Mocks.ConfigureServiceMock" filename="Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\V1\Mocks\ConfigureServiceMock.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Initialize" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

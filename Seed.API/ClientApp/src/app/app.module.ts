@@ -12,6 +12,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ReactiveProgrammingComponent } from './reactive-programming/reactive-programming.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeService } from './services/employee.service';
+import { HighlightDirective } from './Common/directives/HighlightDirective';
 
 @NgModule({
   declarations: [	
@@ -21,7 +22,8 @@ import { EmployeeService } from './services/employee.service';
     CounterComponent,
     FetchDataComponent,
     ReactiveProgrammingComponent,
-    EmployeesComponent
+    EmployeesComponent,
+    HighlightDirective
    ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

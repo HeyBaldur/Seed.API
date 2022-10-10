@@ -1,8 +1,3 @@
-C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.csproj.AssemblyReference.cache
-C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.AssemblyInfoInputs.cache
-C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.AssemblyInfo.cs
-C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.csproj.CoreCompileInputs.cache
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
@@ -146,6 +141,11 @@ C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\S
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\bin\Debug\net5.0\Seed.Repositories.pdb
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\bin\Debug\net5.0\Seed.Services.pdb
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\bin\Debug\net5.0\Seed.Interfaces.pdb
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.csproj.AssemblyReference.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.AssemblyInfoInputs.cache
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.AssemblyInfo.cs
+C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.csproj.CoreCompileInputs.cache
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.csproj.CopyComplete
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\Seed.XUnit.dll
 C:\Users\Rodolfo AC\Documents\ASP.NET Core 3.1\Github Public Projects\Seed.API\Seed.XUnit\obj\Debug\net5.0\ref\Seed.XUnit.dll

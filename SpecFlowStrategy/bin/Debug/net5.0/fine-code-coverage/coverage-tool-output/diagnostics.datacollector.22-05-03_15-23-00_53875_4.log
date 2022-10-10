@@ -59,3 +59,24 @@ TpTrace Information: 0 : 37100, 6, 2022/05/03, 15:23:01.678, 3780269809344, data
 TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:23:03.355, 3780286572519, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
 TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:23:03.451, 3780287540082, datacollector.dll, Blame Collector : Test Case Start
 TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:23:03.458, 3780287603189, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PerformAddingNewEmployee - 89d368e1-db0e-a76f-77c7-ff600b9769bb' started.
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:04.256, 3780895587615, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:04.261, 3780895636899, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:04.265, 3780895672925, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PerformAddingNewEmployee - 89d368e1-db0e-a76f-77c7-ff600b9769bb' completed
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:04.284, 3780895864893, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:04.284, 3780895868296, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:04.284, 3780895869576, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PerformAllEmployeesList - 15713bcb-428b-1372-5348-f0946989e4ad' started.
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:22.901, 3781082038523, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:22.902, 3781082050474, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:22.903, 3781082055141, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PerformAllEmployeesList - 15713bcb-428b-1372-5348-f0946989e4ad' completed
+TpTrace Information: 0 : 37100, 4, 2022/05/03, 15:24:22.987, 3781082896910, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.668, 3781089703132, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.672, 3781089743602, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.672, 3781089745738, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.672, 3781089749178, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 37100, 1, 2022/05/03, 15:24:23.672, 3781089750169, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 37100, 1, 2022/05/03, 15:24:23.673, 3781089753320, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.673, 3781089755100, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.680, 3781089829053, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.681, 3781089833871, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.681, 3781089834911, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 37100, 1, 2022/05/03, 15:24:23.681, 3781089835701, datacollector.dll, Program.Main: exiting datacollector process.

@@ -19,6 +19,22 @@
   </tbody>
 </table>
 
+<h3 class="mt-3">This table uses 'Attribute directives'</h3>
+<table class="table table-sm mt-1">
+  <thead>
+    <tr>
+      <th scope="col">Full name</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of personAges">
+      <td appHighlight [textFontWeight]="'600'">{{person.name}}</td>
+      <td>{{person.age}}</td>
+    </tr>
+  </tbody>
+</table>
+
 <div class="mt-3">
   <h4>Add new</h4>
   <form (ngSubmit)="onSubmit(this.form.value)" [formGroup]="form">

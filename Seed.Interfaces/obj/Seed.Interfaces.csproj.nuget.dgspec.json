@@ -74,11 +74,23 @@
         "projectUniqueName": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj",
         "projectName": "Seed.Models",
         "projectPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\Seed.Models.csproj",
+        "packagesPath": "C:\\Users\\Rodolfo AC\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\Rodolfo AC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net472": {
             "projectReferences": {}
           }
-        }
+        },
+        "packagesConfigPath": "C:\\Users\\Rodolfo AC\\Documents\\ASP.NET Core 3.1\\Github Public Projects\\Seed.API\\Seed.Models\\packages.config"
       },
       "frameworks": {
         "net472": {}
